@@ -16,4 +16,5 @@ header {
   background-color: green;
   color: rgb(255, 0, 0);
   font: strong 25px Arial, HelVetica, sans-serif;
+  margin: 25px;
 }
