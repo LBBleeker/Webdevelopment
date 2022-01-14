@@ -1,6 +1,6 @@
 body {
-  background-color: #666666;
-  color: #222;
+  background-color: #9090ff;
+  color: #550000;
 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -8,13 +8,13 @@ body {
   /* Same as above*/
   font: normal 16px Arial, HelVetica, sans-serif;
 
-  line-height: 1.6em;
+  line-height: 1.2em;
   margin: 16px;
 }
 
 header {
-  background-color: green;
-  color: rgb(255, 0, 0);
+  background-color: #34edf7;
+  color: #700000;
   font: strong 25px Arial, HelVetica, sans-serif;
-  margin: 25px;
+  padding: 16px;
 }
