@@ -10,16 +10,13 @@ body {
 
   line-height: 1.2em;
   margin: 16px;
+  padding: 16px;
 }
 h2 {
-  font: strong 20px Arial, HelVetica, sans-serif;
-  background-color: #9090ff;
   color: #330000;
 }
 
 h3 {
-  font: strong 10px Arial, HelVetica, sans-serif;
-  background-color: #9090ff;
   color: #330000;
 }
 
@@ -28,4 +25,5 @@ header {
   color: #700000;
   font: strong Arial, HelVetica, sans-serif;
   padding: 16px;
+  margin: auto;
 }
