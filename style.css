@@ -12,10 +12,19 @@ body {
   margin: 16px;
   padding: 16px;
 }
-h2 {
+a {
+  text-decoration: none;
+  color: #550000;
+}
+a:hover{
+    color: chartreuse;
+}
+.black-border {
+  border: 5px solid black;
+  border-radius: 15px;
+  padding: 5px;
   color: #330000;
 }
-
 h3 {
   color: #330000;
 }
@@ -26,4 +35,6 @@ header {
   font: strong Arial, HelVetica, sans-serif;
   padding: 16px;
   margin: auto;
+  border: 5px solid black;
+  border-radius: 15px;
 }
