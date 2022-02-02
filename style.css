@@ -79,13 +79,13 @@ minimal width : 1024px
     max-height: 400px;
   }
   .myImage {
-    max-height: 175px;
+    max-height: 300px;
   }
 
   header,
   body,
   footer {
-    font-size: 16px;
+    font-size: 19px;
   }
 }
 
@@ -94,12 +94,12 @@ minimal width : 1024px
     max-height: 400px;
   }
   .myImage {
-    height: 120px;
+    height: 150px;
   }
 
   header,
   body,
   footer {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
