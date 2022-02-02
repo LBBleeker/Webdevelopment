@@ -38,12 +38,16 @@ header {
   border: 5px solid black;
   border-radius: 15px;
   height: 25%;
+  font: normal 16px Arial, HelVetica, sans-serif;
+}
+image {
+  height: 30%;
 }
 
 .myImage {
-    float:left;
-    margin-right: 20px;
-    height: 90%;
+  float: left;
+  margin-right: 20px;
+  height: 90%;
 }
 
 /*Media Queries*/
@@ -61,6 +65,7 @@ minimal width : 1024px
 
 @media screen and (max-width: 750px) {
   head {
+    font-size: 10px;
   }
   body {
     font-size: 10px;
