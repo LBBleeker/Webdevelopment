@@ -33,11 +33,11 @@ header {
   background-color: #34edf7;
   color: #700000;
   font: strong Arial, HelVetica, sans-serif;
-  padding: 16px;
+  padding: 10px;
   margin: auto;
   border: 5px solid black;
   border-radius: 15px;
-  height: 25%;
+  height: 200px;
   font: normal 16px Arial, HelVetica, sans-serif;
 }
 image {
@@ -47,7 +47,7 @@ image {
 .myImage {
   float: left;
   margin-right: 20px;
-  height: 90%;
+  height: 99%;
 }
 
 /*Media Queries*/
@@ -64,10 +64,15 @@ minimal width : 1024px
 */
 
 @media screen and (max-width: 750px) {
-  head {
-    font-size: 10px;
+  header {
+    height: 120px;
   }
   body {
+    height: 400px;
+  }
+  header,
+  body,
+  footer {
     font-size: 10px;
   }
 }
