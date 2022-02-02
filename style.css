@@ -52,11 +52,11 @@ minimal width : 768px
 minimal width : 1024px
 */
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
+  head {
+    image-resolution: 200px;
+  }
   body {
     font-size: 10px;
-    image-resolution: 200px;
-    
   }
 }
-
