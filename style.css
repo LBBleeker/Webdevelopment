@@ -52,7 +52,7 @@ minimal width : 768px
 minimal width : 1024px
 */
 
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
   head {
     image-resolution: 200px;
   }
