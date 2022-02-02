@@ -16,8 +16,8 @@ a {
   text-decoration: none;
   color: #550000;
 }
-a:hover{
-    color: chartreuse;
+a:hover {
+  color: chartreuse;
 }
 .black-border {
   border: 5px solid black;
@@ -38,3 +38,25 @@ header {
   border: 5px solid black;
   border-radius: 15px;
 }
+
+/*Media Queries*/
+
+/*
+// Smartphones (portrait)
+minimal width : 320px;
+
+// Tablets (portrait)
+minimal width : 768px
+
+// Desktop 
+minimal width : 1024px
+*/
+
+@media (max-width: 600px) {
+  body {
+    font-size: 10px;
+    image-resolution: 200px;
+    
+  }
+}
+
