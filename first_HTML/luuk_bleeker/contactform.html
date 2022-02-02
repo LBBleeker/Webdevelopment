@@ -7,29 +7,68 @@
   </head>
   <body>
     <header>
-      <h1>Luuk Bleeker</h1>
+      <h1>Contact form</h1>
       <hr size="4px" noshade />
     </header>
     <main>
       <form name="contact" method="POST" data-netlify="true">
         <p>
-          <label
-            >Name and Surname:
-            <input name="name" type="text" value="Enter your full name"
-          /></label>
+          <label>Name: <input name="name" type="text" /></label>
         </p>
         <p>
-          <label>Birthday <input name="birthday" type="date" /></label>
+          <label>Surname: <input name="surname" type="text" /></label>
+        </p>
+        <p>
+          <label>Telephone number: <input name="telnr." type="number" /></label>
         </p>
         <p>
           <label>Email <input name="email" type="email" /></label>
         </p>
+        <p>
+          <label>Age: <input name="age" type="number" /></label>
+        </p>
+        <p>
+          <label>Birthday: <input name="birthday" type="date" /></label>
+        </p>
+
+        <p>
+          <label
+            >Gender: <input name="gender" type="radio" value="male" /> Male
+            <input name="gender" type="radio" value="female" /> Female
+            <input name="gender" type="radio" value="other" /> Other
+          </label>
+        </p>
+        <p>
+          <label>
+            Favorite cuisine:
+            <input name="cuisine" type="checkbox" value="Dutch" /> Dutch
+            <input name="cuisine" type="checkbox" value="French" /> French
+            <input name="cuisine" type="checkbox" value="Italian" /> Italian
+            <input name="cuisine" type="checkbox" value="Spanish" /> Spanish
+            <input name="cuisine" type="checkbox" value="Mexican" /> Mexican
+            <input name="cuisine" type="checkbox" value="Arabic" /> Arabic
+          </label>
+        </p>
+        <p>
+          <label> <input name="color" type="color" value="#000000" /> </label>
+        </p>
         <label>
-          <textarea name="message" rows="10" cols="50">
+          <textarea name="biography" rows="10" cols="50">
 Tell someting about yourself
           </textarea>
         </label>
+        <p>
+          <label>
+            <span>Upload recipe</span>
+            <input name="recipe" type="file" />
+          </label>
+        </p>
+        <p>
+          Weblink to recipe<label><input name="url recipe" type="url" /></label>
+        </p>
         <p><button type="submit">Submit</button></p>
+        <p><button type="reset">Reset</button></p>
+
         <input type="hidden" name="form-name" value="contact" />
       </form>
     </main>
