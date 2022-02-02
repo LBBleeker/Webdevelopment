@@ -15,45 +15,22 @@
         <p>
           <label
             >Name and Surname:
-            <input name="" type="text" value="Enter your full name"
+            <input name="name" type="text" value="Enter your full name"
           /></label>
         </p>
         <p>
-          <label>Birthday <input name="" type="date" /></label>
+          <label>Birthday <input name="birthday" type="date" /></label>
         </p>
         <p>
-          <label>Email <input name="" type="email" /></label>
+          <label>Email <input name="email" type="email" /></label>
         </p>
         <label>
-          <textarea rows="10" cols="50">
+          <textarea name="message" rows="10" cols="50">
 Tell someting about yourself
           </textarea>
         </label>
         <p><button type="submit">Submit</button></p>
         <input type="hidden" name="form-name" value="contact" />
-      </form>
-      <form name="contact" method="POST" data-netlify="true">
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label
-            >Your Role:
-            <select name="role[]" multiple>
-              <option value="leader">Leader</option>
-              <option value="follower">Follower</option>
-            </select></label
-          >
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
       </form>
     </main>
   </body>
