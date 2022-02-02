@@ -37,17 +37,13 @@ header {
   margin: auto;
   border: 5px solid black;
   border-radius: 15px;
-  height: 200px;
   font: normal 16px Arial, HelVetica, sans-serif;
-}
-image {
-  height: 30%;
 }
 
 .myImage {
   float: left;
   margin-right: 20px;
-  height: 99%;
+  max-height: 175px;
 }
 
 /*Media Queries*/
@@ -65,10 +61,8 @@ minimal width : 1024px
 
 @media screen and (max-width: 750px) {
   header {
-    height: 120px;
   }
   body {
-    height: 400px;
   }
   header,
   body,
