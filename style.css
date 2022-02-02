@@ -60,9 +60,9 @@ minimal width : 1024px
 */
 
 @media screen and (max-width: 750px) {
-    .myImage{
-        max-height: 150px;
-    }
+  .myImage {
+    max-height: 100px;
+  }
   header {
   }
   body {
