@@ -77,3 +77,21 @@ minimal width : 1024px
     font-size: 10px;
   }
 }
+@media screen and (max-width: 300px) {
+  .favBeer {
+    max-height: 200px;
+  }
+  .myImage {
+    max-height: 50px;
+  }
+
+  header {
+  }
+  body {
+  }
+  header,
+  body,
+  footer {
+    font-size: 5px;
+  }
+}
