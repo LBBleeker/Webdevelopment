@@ -68,8 +68,7 @@ minimal width : 1024px
   }
 
   header,
-  body,
-  footer {
+  body {
     font-size: 10px;
   }
 }
@@ -83,23 +82,37 @@ minimal width : 1024px
   }
 
   header,
-  body,
-  footer {
+  body {
     font-size: 19px;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  h1 {
+    color: #000050;
+  }
+  h3 {
+    color: #000050;
+  }
   .favBeer {
     max-height: 400px;
   }
   .myImage {
-    height: 150px;
+    height: 140px;
   }
 
   header,
-  body,
-  footer {
+  body {
     font-size: 13px;
+    background-color: #008080;
+    color: #000080;
+    line-height: 1.2em;
+  }
+  a {
+    text-decoration: none;
+    color: #000080;
+  }
+  a:hover {
+    color: #00ff00;
   }
 }
