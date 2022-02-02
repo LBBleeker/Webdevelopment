@@ -59,39 +59,47 @@ minimal width : 768px
 minimal width : 1024px
 */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   .favBeer {
-    max-height: 400px;
+    max-height: 200px;
   }
   .myImage {
     max-height: 100px;
   }
 
-  header {
-  }
-  body {
-  }
   header,
   body,
   footer {
     font-size: 10px;
   }
 }
-@media screen and (max-width: 300px) {
+
+@media screen and (min-width: 500px) {
   .favBeer {
-    max-height: 200px;
+    max-height: 400px;
   }
   .myImage {
-    max-height: 50px;
+    max-height: 175px;
   }
 
-  header {
-  }
-  body {
-  }
   header,
   body,
   footer {
-    font-size: 5px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .favBeer {
+    max-height: 400px;
+  }
+  .myImage {
+    height: 120px;
+  }
+
+  header,
+  body,
+  footer {
+    font-size: 10px;
   }
 }
