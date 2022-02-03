@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Special beer</title>
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="contactstyle.css" />
+
+  </head>
+  <body>
+    <header>
+      <h1>Special beer types</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Beers/ipa.html">IPA</a></li>
+          <li><a href="../Beers/sour.html">Sour</a></li>
+          <li><a href="../Beers/porter.html">Porter</a></li>
+          <li><a href="../Beers/stout.html">Stout</a></li>
+          <li><a href="./contactform.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact</h1>
+      <form name="favBeer" method="POST" data-netlify="true">
+        <div>
+          <label
+            >Name: <input name="name" type="text" placeholder="name" required
+          /></label>
+        </div>
+        <div>
+          <label
+            >Surname:
+            <input name="surname" type="text" placeholder="surname" required
+          /></label>
+        </div>
+        <div>
+          <label
+            >Telephone number:
+            <input name="telnr." type="tel" placeholder="0612345678" required
+          /></label>
+        </div>
+        <div>
+          <label
+            >Email
+            <input
+              name="email"
+              type="email"
+              placeholder="email@gmail.com"
+              required
+          /></label>
+        </div>
+        <div>
+          <label>Birthday: <input name="birthday" type="date" /></label>
+        </div>
+        <div>
+          <label>
+            Gender:
+            <br />
+            <input name="gender" type="radio" value="male" class="inline" />
+            Male
+            <input name="gender" type="radio" value="female" class="inline" />
+            Female
+            <input name="gender" type="radio" value="other" class="inline" />
+            Other
+          </label>
+        </div>
+        <div>
+          <label>
+            Favorite beer:
+            <br />
+            <input name="ipa" type="checkbox" class="inline" />
+            IPA
+            <input name="sour" type="checkbox" class="inline" />
+            Sour
+            <input name="porter" type="checkbox" class="inline" />
+            Porter
+            <input name="Stout" type="checkbox" class="inline" />
+            Stout
+          </label>
+        </div>
+        <div>
+        </div>
+        Bio:
+        <label>
+          <textarea
+            name="biography"
+            rows="10"
+            cols="50"
+            placeholder="Tell someting about yourself 
+and something about beer"
+          ></textarea>
+        </label>
+        <div>
+          <label>
+            <span>Upload picture of you with beer:</span>
+            <input name="recipe" type="file" />
+          </label>
+        </div>
+        <div><button type="submit">Submit</button></div>
+        <div><button type="reset">Reset</button></div>
+        <input type="hidden" name="favBeer" value="contact" />
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
