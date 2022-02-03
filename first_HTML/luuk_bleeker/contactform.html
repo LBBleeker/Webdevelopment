@@ -13,48 +13,123 @@
     <main>
       <form name="contact" method="POST" data-netlify="true">
         <div>
-          <label>Name: <input name="name" type="text" /></label>
+          <label
+            >Name: <input name="name" type="text" placeholder="name" required
+          /></label>
         </div>
         <div>
-          <label>Surname: <input name="surname" type="text" /></label>
+          <label
+            >Surname:
+            <input name="surname" type="text" placeholder="surname" required
+          /></label>
         </div>
         <div>
-          <label>Telephone number: <input name="telnr." type="tel" /></label>
+          <label
+            >Telephone number:
+            <input name="telnr." type="tel" placeholder="0612345678" required
+          /></label>
         </div>
         <div>
-          <label>Email <input name="email" type="email" /></label>
+          <label
+            >Email
+            <input
+              name="email"
+              type="email"
+              placeholder="email@gmail.com"
+              required
+          /></label>
         </div>
         <div>
-          <label>Age: <input name="age" type="number" /></label>
+          <label
+            >Age:
+            <input
+              name="age"
+              type="number"
+              placeholder="age"
+              required
+              min="1"
+              max="120"
+          /></label>
         </div>
         <div>
           <label>Birthday: <input name="birthday" type="date" /></label>
         </div>
         <div>
-          <label
-            >Gender: <input name="gender" type="radio" value="male" /> Male
-            <input name="gender" type="radio" value="female" /> Female
-            <input name="gender" type="radio" value="other" /> Other
+          <label>
+            Gender:
+            <br />
+            <input name="gender" type="radio" value="male" class="inline" />
+            Male
+            <input name="gender" type="radio" value="female" class="inline" />
+            Female
+            <input name="gender" type="radio" value="other" class="inline" />
+            Other
           </label>
         </div>
         <div>
           <label>
             Favorite cuisine:
-            <input name="cuisine" type="checkbox" value="Dutch" /> Dutch
-            <input name="cuisine" type="checkbox" value="French" /> French
-            <input name="cuisine" type="checkbox" value="Italian" /> Italian
-            <input name="cuisine" type="checkbox" value="Spanish" /> Spanish
-            <input name="cuisine" type="checkbox" value="Mexican" /> Mexican
-            <input name="cuisine" type="checkbox" value="Arabic" /> Arabic
+            <br />
+            <input
+              name="cuisine"
+              type="checkbox"
+              value="Dutch"
+              class="inline"
+            />
+            Dutch
+            <input
+              name="cuisine"
+              type="checkbox"
+              value="French"
+              class="inline"
+            />
+            French
+            <input
+              name="cuisine"
+              type="checkbox"
+              value="Italian"
+              class="inline"
+            />
+            Italian
+            <br />
+            <input
+              name="cuisine"
+              type="checkbox"
+              value="Spanish"
+              class="inline"
+            />
+
+            Spanish
+            <input
+              name="cuisine"
+              type="checkbox"
+              value="Mexican"
+              class="inline"
+            />
+            Mexican
+            <input
+              name="cuisine"
+              type="checkbox"
+              value="Arabic"
+              class="inline"
+            />
+            Arabic
           </label>
         </div>
         <div>
-          <label> <input name="color" type="color" value="#000000" /> </label>
+          <label
+            >Favorite color:
+            <input name="color" type="color" value="#00ff00" />
+          </label>
         </div>
+        Biography:
         <label>
-          <textarea name="biography" rows="10" cols="50">
-Tell someting about yourself
-          </textarea>
+          <textarea
+            name="biography"
+            rows="10"
+            cols="50"
+            placeholder="Tell someting about yourself"
+          ></textarea>
         </label>
         <div>
           <label>
@@ -63,13 +138,17 @@ Tell someting about yourself
           </label>
         </div>
         <div>
-          Weblink to recipe<label><input name="url recipe" type="url" /></label>
+          Weblink to recipe:<label
+            ><input name="url recipe" type="url"
+          /></label>
         </div>
         <div><button type="submit">Submit</button></div>
         <div><button type="reset">Reset</button></div>
-
         <input type="hidden" name="form-name" value="contact" />
       </form>
     </main>
+    <footer>
+      <div><a href="../../index.html">Back</a></div>
+    </footer>
   </body>
 </html>

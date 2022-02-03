@@ -46,6 +46,18 @@ header {
   max-height: 175px;
 }
 
+label, input, textarea{
+    display: block;
+    width: 250px;
+
+}
+
+.inline{
+    display: inline;
+    width: auto;
+}
+
+
 /*Media Queries*/
 
 /*
