@@ -25,11 +25,34 @@ a:hover {
   color: chartreuse;
 }
 
+.source {
+  color: black;
+}
+
+.beerstyles {
+  width: 100%;
+  max-width: 500px;
+}
 
 h1 {
   margin: 16px 0px;
   padding: 0;
 }
+h2 {
+  color: #222222;
+}
+h3 {
+  color: #333333;
+}
+h4 {
+  margin-bottom: 0;
+  color: #444444;
+}
+p {
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
+
 header {
   font: normal 16px Arial, HelVetica, sans-serif;
   padding: 0;
@@ -41,38 +64,6 @@ body {
   line-height: 1.2em;
   margin: 8px;
   padding: 8px;
-}
-
-.btn {
-  border-right: 3px solid white;
-  border-left: 3px solid #808080;
-  border-top: 3px solid white;
-  border-bottom: 3px solid black;
-
-  background-color: lightgray;
-  color: black;
-  cursor: pointer;
-  margin-right: 32px;
-}
-.btn:hover {
-  color: chartreuse;
-  background: darkgray;
-  border-left: 3px solid lightgray;
-  border-right: 3px solid gray;
-  border-bottom: 3px solid lightgray;
-  border-top: 3px solid gray;
-}
-
-label,
-input,
-textarea {
-  display: block;
-  width: 300px;
-}
-
-.inline {
-  display: inline;
-  width: auto;
 }
 
 /*Media Queries*/
@@ -92,17 +83,22 @@ minimal width : 1024px
   body {
     font-size: 16px;
   }
+  li{
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 500px) {
   header,
   body {
-    font-size: 19px;
+    font-size: 20px;
+    max-width: 500px;
   }
 }
 @media screen and (min-width: 1024px) {
   header,
   body {
     font-size: 12px;
+    width: 1024px;
   }
 }

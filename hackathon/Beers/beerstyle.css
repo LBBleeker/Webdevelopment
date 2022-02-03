@@ -43,38 +43,6 @@ body {
   padding: 8px;
 }
 
-.btn {
-  border-right: 3px solid white;
-  border-left: 3px solid #808080;
-  border-top: 3px solid white;
-  border-bottom: 3px solid black;
-
-  background-color: lightgray;
-  color: black;
-  cursor: pointer;
-  margin-right: 32px;
-}
-.btn:hover {
-  color: chartreuse;
-  background: darkgray;
-  border-left: 3px solid lightgray;
-  border-right: 3px solid gray;
-  border-bottom: 3px solid lightgray;
-  border-top: 3px solid gray;
-}
-
-label,
-input,
-textarea {
-  display: block;
-  width: 300px;
-}
-
-.inline {
-  display: inline;
-  width: auto;
-}
-
 /*Media Queries*/
 
 /*
