@@ -1,9 +1,13 @@
 header,
 body {
 	font: normal 14px Arial, HelVetica, sans-serif;
-	background-color: #aaaaaa;
+	background-color: #dddddd;
 	line-height: 1.2em;
 }
+header{
+    background: #555555;
+}
+
 a {
 	text-decoration: none;
 	color: #333333;
@@ -12,9 +16,6 @@ a {
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-header {
-  margin-top: 2%;
-}
 
 * {
   margin: 0;
@@ -25,16 +26,21 @@ header {
 body {
   font-family: "Poppins", sans-serif;
 }
+main {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 25px;
+  color: #888888;
+}
 
 .container {
   max-width: 1050px;
   width: 90%;
-  margin: auto;
 }
 
 .navbar {
   width: 100%;
-  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  box-shadow: 0 1px 4px #0c5aa826;
 }
 
 .nav-container {
@@ -54,7 +60,6 @@ body {
 
 .navbar .nav-container a {
   text-decoration: none;
-  color: #0e2431;
   font-weight: 500;
   font-size: 1.2rem;
   padding: 0.7rem;
@@ -120,7 +125,7 @@ body {
 .navbar .menu-items {
   padding-top: 50px;
   height: 100vh;
-  width: 100%;
+  width: 40%;
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
@@ -128,19 +133,20 @@ body {
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
   text-align: left;
+  background: #555555;
 }
 
 .navbar .menu-items {
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .logo {
   position: absolute;
-  top: 5px;
-  right: 15px;
-  font-size: 1.2rem;
+  top: 25px;
+  right: 10px;
+  font-size: 50%;
   color: #0e2431;
 }
 
@@ -171,21 +177,29 @@ a.green {color: #00ff00;}
 a.black {color: #000000;}
 a.white {color: #ffffff;}
 a:hover {color: #555555;} */
-a.red:hover {
-	color: #ff0000;
+
+#red:hover {
+	color: red;
+  cursor: pointer;
 }
-a.blue:hover {
-	color: #0000ff;
+#blue:hover {
+	color: blue;
+  cursor: pointer;
 }
-a.yellow:hover {
-	color: #ffff00;
+#yellow:hover {
+	color: yellow;
+  cursor: pointer;
 }
-a.green:hover {
-	color: #00ff00;
+#green:hover {
+	color: green;
+  cursor: pointer;
 }
-a.black:hover {
-	color: #000000;
+#black:hover {
+	color: black;
+  cursor: pointer;
 }
-a.white:hover {
-	color: #ffffff;
+#white:hover {
+	color: white;
+  cursor: pointer;
 }
+
